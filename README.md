@@ -1,58 +1,27 @@
-# System Monitor Script
+# Cloud Log Analyzer
 
-Script de monitoreo desarrollado en Bash para sistemas Linux.
-Genera reportes automaticos del estado del sistema y detecta condiciones criticas.
+Proyecto basico de analisis de logs desarrollado en linux utilizando Bash.
 
---
+## Descripcion
+Este proyecto permite analizar archivos de log, detectar errores y generar reportes automatizados.
 
-## Funcionalidades
-
-- Monitor de uso de CPU
-- Monitoreo de memoria RAM
-- Conteo de procesos activos
-- Generacion automatica de reportes con fecha
-- Alertas cuando se superan limites definidos
-
---
-
-## Tecnologias usadas
-
+## Tecnlogias utilizadas
 - Linux
 - Bash scripting
-- Git y GitHub
+- Git
 
---
+## Funcionalides
+- Busqueda de errores en multiples archivos.log
+- Generacion de reportes automaticos
+- Conteo de errores
+- Uso de timestamps para registros historicos
 
 ## Estructura del proyecto
+- logs/ archivos de logs
+- scripts/ scripts de automatizacion
+- output/ resutados de analisis
 
-cloud-lab/
-|
-|___scripts/
-| |___monitor.sh
-|
-|___Logs/
-|___output/
-|___README.md
-
-## Como ejecutar
-
-'''bash
-chmod +x scripts/monitor.sh
-./scripts/monitor.sh
-
-## Automatizacion (cron)
-
-*/5 * * * * /ruta/completa/scripts/monitor.sh
-
-## Objetivo del proyecto
-
-Este proyecto fue desarrollado como parte del aprendizaje en:
-- Automatizacion de tareas
-- Administracion de sistemas Linux
-- Fundamentos de DevOps
-
-## Autor
-
-Yonatan Raymundo
-
-
+## Como usar
+cd scripts
+chmod +x analizar_logs.sh
+./analizar_logs.sh
