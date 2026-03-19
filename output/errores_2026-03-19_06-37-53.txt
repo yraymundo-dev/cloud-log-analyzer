@@ -1,5 +1,0 @@
-===== ANALISIS DE LOGS =====
-../logs/auth.log:ERROR login failed
-../logs/server.log:ERROR connection failed
-Total de errores encontrados:
-2
