@@ -1,0 +1,7 @@
+===== ANALISIS DE LOGS =====
+Thu Mar 19 06:31:55 AM UTC 2026
+../logs/auth.log:ERROR login failed
+../logs/server.log:ERROR connection failed
+Total de errores encontrados:
+2
+---------------------------------
