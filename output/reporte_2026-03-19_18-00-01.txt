@@ -1,0 +1,15 @@
+===== MONITOREO DEL SISTEMA =====
+Thu Mar 19 06:00:01 PM UTC 2026
+Uso de CPU:
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni, 97.7 id,  0.0 wa,  0.0 hi,  2.3 si,  0.0 st 
+Uso de memoria:
+               total        used        free      shared  buff/cache   available
+Mem:           2.9Gi       922Mi       794Mi        32Mi       1.4Gi       2.0Gi
+Swap:             0B          0B          0B
+Procesos activos:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+vboxuser    2763  100  0.1  22292  4772 ?        R    18:00   0:00 ps aux --sort=-%cpu
+vboxuser    1903  7.1 12.6 3922864 378100 ?      Ssl  17:58   0:08 /usr/bin/gnome-shell
+vboxuser    2177  2.1  0.9 429632 28992 ?        Sl   17:58   0:02 /usr/libexec/ibus-extension-gtk3
+root        2750  2.1  0.1  21244  4524 ?        S    18:00   0:00 /usr/sbin/CRON -f -P
+==========================================

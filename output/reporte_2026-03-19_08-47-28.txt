@@ -1,0 +1,15 @@
+===== MONITOREO DEL SISTEMA =====
+Thu Mar 19 08:47:28 AM UTC 2026
+Uso de CPU:
+%Cpu(s):  0.0 us, 12.5 sy,  6.2 ni, 56.2 id, 18.8 wa,  0.0 hi,  6.2 si,  0.0 st 
+Uso de memoria:
+               total        used        free      shared  buff/cache   available
+Mem:           2.9Gi       1.7Gi        66Mi        54Mi       1.1Gi       1.2Gi
+Swap:             0B          0B          0B
+Procesos activos:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+vboxuser   20178 13.3  1.0 482968 30804 ?        SNl  08:47   0:00 /usr/libexec/tracker-extract-3 --socket-fd 3
+vboxuser    1903  4.6 12.0 4036928 360388 ?      Ssl  05:51   8:14 /usr/bin/gnome-shell
+vboxuser   17297  3.4 15.9 11803212 476940 ?     Sl   07:14   3:13 /snap/firefox/7766/usr/lib/firefox/firefox
+vboxuser   18003  1.1  7.1 2742088 212956 ?      Sl   07:14   1:02 /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:42699 -prefMapHandle 1:276973 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {50e4afd3-1ab4-48d1-ac01-08d6b1154812} -parentPid 17297 -crashReporter 6 -crashHelper 7 -greomni /snap/firefox/7766/usr/lib/firefox/omni.ja -appomni /snap/firefox/7766/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/7766/usr/lib/firefox/browser 7 tab
+==========================================

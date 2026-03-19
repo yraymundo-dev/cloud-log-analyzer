@@ -1,0 +1,14 @@
+===== MONITOREO DEL SISTEMA =====
+Thu Mar 19 09:25:01 AM UTC 2026
+Uso de CPU:
+%Cpu(s):  0.0 us, 13.3 sy,  6.7 ni, 66.7 id,  6.7 wa,  0.0 hi,  6.7 si,  0.0 st 
+Uso de memoria:
+               total        used        free      shared  buff/cache   available
+Mem:           2.9Gi       1.7Gi        79Mi        47Mi       1.2Gi       1.2Gi
+Swap:             0B          0B          0B
+Procesos activos:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+vboxuser   21062  100  0.1  22428  4868 ?        R    09:25   0:00 ps aux --sort=-%cpu
+vboxuser   21053 21.7  1.0 482968 30536 ?        SNl  09:25   0:00 /usr/libexec/tracker-extract-3 --socket-fd 3
+vboxuser    1903  4.1 12.2 4045924 366456 ?      Ssl  05:51   8:50 /usr/bin/gnome-shell
+vboxuser   17297  2.5 14.8 11805384 443536 ?     Sl   07:14   3:20 /snap/firefox/7766/usr/lib/firefox/firefox

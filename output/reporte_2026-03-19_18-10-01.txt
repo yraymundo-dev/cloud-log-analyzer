@@ -1,0 +1,19 @@
+===== MONITOREO DEL SISTEMA =====
+Thu Mar 19 06:10:01 PM UTC 2026
+REPORTE DEL SISTEMA - 2026-03-19_18-10-01
+Uso de CPU:
+%Cpu(s):  5.3 us, 10.5 sy,  0.0 ni, 63.2 id,  5.3 wa,  0.0 hi, 15.8 si,  0.0 st 
+REPORTE DEL SISTEMA - 2026-03-19_18-10-01
+====================================
+Uso de memoria:
+               total        used        free      shared  buff/cache   available
+Mem:           2.9Gi       991Mi       477Mi        32Mi       1.6Gi       1.9Gi
+Swap:             0B          0B          0B
+REPORTE DEL SISTEMA - 2026-03-19_18-10-01
+Procesos activos:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+vboxuser    3060  100  0.1  22292  4788 ?        R    18:10   0:00 ps aux --sort=-%cpu
+vboxuser    1903  7.1 12.6 3927028 379052 ?      Ssl  17:58   0:50 /usr/bin/gnome-shell
+root         682  7.1  1.5 1924264 46852 ?       Ssl  17:56   0:59 /snap/snapd/current/usr/lib/snapd/snapd
+root        3046  3.1  0.1  21244  4524 ?        S    18:10   0:00 /usr/sbin/CRON -f -P
+==========================================
